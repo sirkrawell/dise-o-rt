@@ -1,0 +1,36 @@
+
+
+
+}
+
+.menu {
+	display: inline-block;
+	position: relative;
+}
+
+.menu__boton {
+	padding: 5px 15px;
+	width: 300px;
+}
+
+.menu__lista {
+	list-style: none;
+	position: absolute;
+	width: 100%;
+	display: none;
+}
+
+li > a {
+	text-decoration: none;
+	display: block;
+	color: black;
+}
+
+.menu:hover > .menu__lista {
+	display: block;
+}
+
+.menu__lista >a:hover {
+	color: #red;
+	background-color: #ccc;
+}
